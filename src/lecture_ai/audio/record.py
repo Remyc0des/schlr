@@ -43,3 +43,4 @@ class AudioRecorder:
         print("Full path:", os.path.abspath(filename))
         write(filename, self.freq, audio)
         wv.write("recording1.wav", audio, self.freq, sampwidth=2)
+

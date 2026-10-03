@@ -3,6 +3,9 @@
 class Course:
     def __init__(self, name, data=None):
         self.name = name
-        self.data = data
+        self.lectures = []
+        self.data = data 
+        
+        
 
     
